@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ForWaiters</string>
+    <string name="add_floor">ADD FLOOR</string>
+    <string name="add_plate">ADD PLATE</string>
+    <string name="add_menu">ADD MENU</string>
+    <string name="add_table">ADD TABLE</string>
+</resources>

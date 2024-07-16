@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#6200EE" /> <!-- Cambia il colore di sfondo a tuo piacimento -->
+    <corners android:radius="60dp" /> <!-- Raggio degli angoli, 0dp per angoli quadrati -->
+</shape>
