@@ -1,10 +1,11 @@
-package com.example.forwaiters
+package com.example.forwaiters.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.RecyclerView
+import com.example.forwaiters.R
 
 class AdapterGridViewPlates (private val items: List<String>) : RecyclerView.Adapter<AdapterGridViewPlates.GridViewHolder>() {
 
