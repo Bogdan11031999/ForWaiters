@@ -1,4 +1,4 @@
-package com.example.forwaiters
+package com.example.forwaiters.adapters
 
 
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.forwaiters.R
 
 class CustomAdapterListViewOrder(private val items: List<Pair<String, String>>) : RecyclerView.Adapter<CustomAdapterListViewOrder.ViewHolder>() {
 

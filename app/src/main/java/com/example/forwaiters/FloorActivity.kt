@@ -1,11 +1,14 @@
 package com.example.forwaiters
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.forwaiters.adapters.AdapterGridViewMenu
+import com.example.forwaiters.adapters.AdapterGridViewPlates
+import com.example.forwaiters.adapters.CustomAdapterListViewOrder
+import com.example.forwaiters.adapters.SpaceItemDecoration
 
 class FloorActivity : AppCompatActivity() {
 
@@ -20,6 +23,7 @@ class FloorActivity : AppCompatActivity() {
         val layoutManagerPlates = GridLayoutManager(this, 2, RecyclerView.HORIZONTAL, false)
         recyclerViewPlates.layoutManager = layoutManagerPlates
         recyclerViewPlates.adapter = adapterPlates
+
 
 
         val recyclerViewMenu: RecyclerView = findViewById(R.id.recyclerViewMenu)
