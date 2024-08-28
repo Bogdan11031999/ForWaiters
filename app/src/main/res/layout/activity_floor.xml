@@ -6,42 +6,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    android:padding="16dp"
-    tools:context=".MainActivity">
+    tools:context=".activities.FloorActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewPlates"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/border"
-        app:layout_constraintBottom_toTopOf="@+id/recyclerViewMenu"
-        app:layout_constraintEnd_toStartOf="@+id/recyclerViewOrder"
-        app:layout_constraintHeight_percent="0.75"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintWidth_percent="0.65" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewOrder"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/border"
+        android:id="@+id/recyclerViewTables"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="140dp"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/recyclerViewPlates"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintWidth_percent="0.25" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewMenu"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/border"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/recyclerViewOrder"
-        app:layout_constraintHeight_percent="0.25"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerViewPlates"
-        app:layout_constraintWidth_percent="0.65" />
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerViewTables"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

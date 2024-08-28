@@ -1,10 +1,9 @@
-package com.example.forwaiters
+package com.example.forwaiters.database
 
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
-
 @Entity
 data class Piano(
     @PrimaryKey val nomeDBPiano: String,

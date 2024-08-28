@@ -42,6 +42,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.3.1")
     implementation("androidx.media3:media3-database:1.2.0")
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.lifecycle.common.jvm)
     kapt("androidx.room:room-compiler:2.6.1")
     implementation ("androidx.room:room-runtime:2.6.1")
     annotationProcessor("androidx.room:room-compiler:2.6.1")
